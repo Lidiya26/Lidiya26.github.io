@@ -68,7 +68,7 @@ h1 {
 
 @media (min-width: 641px) and (max-width: 1200px) {
     .header {
-        min-width: 773px;
+        width: 773px;
         background-image: url(/images/tablet/banner-bg-tablet.jpg);
         margin: 0 auto;
         background-color: #000000;
