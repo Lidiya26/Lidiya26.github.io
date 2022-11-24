@@ -44,7 +44,7 @@ h1 {
 header {
     min-width: 1660px;
     margin: 0 auto;
-    background-image: url(images\desk\banner-bg.jpg);
+    background-image: url(/images/desk/banner-bg.jpg);
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
