@@ -44,7 +44,7 @@ h1 {
 header {
     min-width: 1660px;
     margin: 0 auto;
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+    background-image: url(images\banner-bg.jpg);
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -302,7 +302,6 @@ header {
     height: 48px;
     background-color: #b59f5b;
     background-position: center center;
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
     background-repeat: no-repeat;
     background-size: 20px;
 }
