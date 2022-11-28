@@ -41,8 +41,8 @@ h1 {
     border: 0;
 }
 
-header {
-    min-width: 1660px;
+.header {
+    width: 100%;
     margin: 0 auto;
     background-image: url(/images/desk/banner-bg.jpg);
     background-color: #000000;
@@ -440,13 +440,13 @@ header {
 }
 
 @media (max-width: 640px) {
-    header {
+    .header {
         background-image: url(/images/mobile/banner-mobile.jpg);
-    }
+    }  
 }
 
 @media (min-width: 641px) and (max-width:1199px){
-    header {
+    .header {
         background-image: url(/images/tablet/banner-bg-tablet.jpg);
     }
 }
