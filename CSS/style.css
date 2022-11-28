@@ -64,7 +64,7 @@ h1 {
 }
 
 .container {
-    width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
 }
 
@@ -130,7 +130,7 @@ h1 {
 }
 
 .card-trend {
-    width: 24.94%;
+    width: 24%;
     height: 319px;
     background-color: #eff6f1;
     position: relative;
@@ -488,9 +488,13 @@ h1 {
     font-family: "Open Sans";
 }
 
-@media (min-width: 641px) and (max-width:1199px) and (orientation:portrait) {
+@media (min-width: 641px) and (max-width:1199px)  {
     .header {
         background: url("../images/tablet/banner-bg-tablet.jpg") no-repeat center;
+    }
+
+    .container {
+        min-width: 641px;
     }
 }
 
@@ -498,10 +502,18 @@ h1 {
     
 }
 
-@media (max-width: 640px) and (orientation:portrait) {
+@media (max-width: 640px) {
     .header {
         background: url("../images/mobile/banner-mobile.jpg") no-repeat center;
     }  
+
+    .container {
+        min-width: 320px;
+    }
+
+    .menu-list {
+        display: none;
+    }
 }
 
 @media (max-width: 640px) and (orientation:landscape) {
