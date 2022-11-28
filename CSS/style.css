@@ -44,9 +44,8 @@ h1 {
 .header {
     width: 100%;
     margin: 0 auto;
-    background-image: url(/images/desk/banner-bg.jpg);
+    background: url("../images/desk/banner-bg.jpg") no-repeat center;
     background-color: #000000;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     z-index: 0;
@@ -114,6 +113,55 @@ h1 {
     text-align: center;
     padding-top: 120px;
     padding-bottom: 140px;
+}
+
+.trends-title {
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.card-trends {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-trend {
+    width: 414px;
+    height: 319px;
+    background-color: #eff6f1;
+    position: relative;
+    z-index: 0;
+}
+
+.trend1 {
+    background: url("../images/trend/trend1.jpg") no-repeat center;
+}
+
+.trend2 {
+    background: url("../images/trend/trend2.jpg") no-repeat center;
+}
+
+.trend3 {
+    background: url("../images/trend/trend3.jpg") no-repeat center;
+}
+
+.trend4 {
+    background: url("../images/trend/trend4.jpg") no-repeat center;
+}
+
+.card-trend::after {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    z-index: -1;
 }
 
 .health-inner {
@@ -439,14 +487,22 @@ h1 {
     font-family: "Open Sans";
 }
 
-@media (max-width: 640px) {
+@media (min-width: 641px) and (max-width:1199px) and (orientation:portrait) {
     .header {
-        background-image: url(/images/mobile/banner-mobile.jpg);
+        background: url("../images/tablet/banner-bg-tablet.jpg") no-repeat center;
+    }
+}
+
+@media (min-width: 641px) and (max-width:1199px) and (orientation:landscape) {
+    
+}
+
+@media (max-width: 640px) and (orientation:portrait) {
+    .header {
+        background: url("../images/mobile/banner-mobile.jpg") no-repeat center;
     }  
 }
 
-@media (min-width: 641px) and (max-width:1199px){
-    .header {
-        background-image: url(/images/tablet/banner-bg-tablet.jpg);
-    }
+@media (max-width: 640px) and (orientation:landscape) {
+
 }
