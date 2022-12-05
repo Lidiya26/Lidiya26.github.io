@@ -470,6 +470,7 @@ h1 {
 .cards-shop {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .shop-item-1,
