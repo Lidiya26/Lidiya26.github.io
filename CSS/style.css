@@ -1,12 +1,12 @@
 @font-face {
-    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+    src: url(/fonts/OpenSans-Regular.woff);
     font-family: "Open Sans";
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+    src: url(/fonts/OpenSans-Bold.woff);
     font-family: "Open Sans";
     font-weight: 600;
     font-style: bold;
@@ -132,25 +132,51 @@ h1 {
 .card-trend {
     width: 24%;
     height: 319px;
-    background-color: #eff6f1;
     position: relative;
     z-index: 0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.card-trend-title {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.card-trend-title:hover {
+    color: #b59f5b;
+    
 }
 
 .trend1 {
     background: url("../images/trend/trend1.jpg") no-repeat center;
+    background-color: #eff6f1;
 }
 
 .trend2 {
     background: url("../images/trend/trend2.jpg") no-repeat center;
+    background-color: #eff6f1;
 }
 
 .trend3 {
     background: url("../images/trend/trend3.jpg") no-repeat center;
+    background-color: #eff6f1;
 }
 
 .trend4 {
     background: url("../images/trend/trend4.jpg") no-repeat center;
+    background-color: #eff6f1;
+}
+
+.conteiner-trends {
+    border: 3px solid #b59f5b;
+    margin: 18px;
+    padding: 30px;
+    
 }
 
 .card-trend::after {
