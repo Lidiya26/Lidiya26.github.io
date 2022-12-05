@@ -52,7 +52,7 @@ h1 {
 }
 
 .header::after {
-    content:"";
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -149,7 +149,7 @@ h1 {
 
 .card-trend-title:hover {
     color: #b59f5b;
-    
+
 }
 
 .trend1 {
@@ -176,11 +176,11 @@ h1 {
     border: 3px solid #b59f5b;
     margin: 18px;
     padding: 30px;
-    
+
 }
 
 .card-trend::after {
-    content:"";
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -467,6 +467,19 @@ h1 {
     color: #b59f5b;
 }
 
+.cards-shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-item-1,
+.shop-item-2,
+.shop-item-3 {
+    width: 300px;
+    height: 204px;
+    background-color: #eff6f1;
+}
+
 .footer {
     margin-top: 55px;
 }
@@ -514,7 +527,7 @@ h1 {
     font-family: "Open Sans";
 }
 
-@media (min-width: 641px) and (max-width:1199px)  {
+@media (min-width: 641px) and (max-width:1199px) {
     .header {
         background: url("../images/tablet/banner-bg-tablet.jpg") no-repeat center;
     }
@@ -528,14 +541,12 @@ h1 {
     }
 }
 
-@media (min-width: 641px) and (max-width:1199px) and (orientation:landscape) {
-    
-}
+@media (min-width: 641px) and (max-width:1199px) and (orientation:landscape) {}
 
 @media (max-width: 640px) {
     .header {
         background: url("../images/mobile/banner-mobile.jpg") no-repeat center;
-    }  
+    }
 
     .container {
         min-width: 320px;
@@ -546,6 +557,4 @@ h1 {
     }
 }
 
-@media (max-width: 640px) and (orientation:landscape) {
-
-}
+@media (max-width: 640px) and (orientation:landscape) {}
