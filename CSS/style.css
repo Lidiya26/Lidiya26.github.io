@@ -1,13 +1,13 @@
 @font-face {
-    src: url(/fonts/OpenSans-Regular.woff);
     font-family: "Open Sans";
+    src: url(/fonts/OpenSans-Regular.ttf), url(/fonts/OpenSans-Regular.woff), url(/fonts/OpenSans-Regular.woff2);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    src: url(/fonts/OpenSans-Bold.woff);
     font-family: "Open Sans";
+    src: url(/fonts/OpenSans-Bold.ttf), url(/fonts/OpenSans-Bold.woff), url(/fonts/OpenSans-Bold.woff2);
     font-weight: 600;
     font-style: bold;
 }
@@ -125,6 +125,7 @@ h1 {
 }
 
 .card-trends {
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -283,13 +284,8 @@ h1 {
     width: 270px;
 }
 
+
 .news-blog {
-    font-size: 14px;
-    line-height: 29px;
-    text-transform: uppercase;
-    color: #0f0d0e;
-    font-weight: 700;
-    font-family: "Open Sans";
     text-align: center;
     padding-bottom: 25px;
     margin-top: 55px;
@@ -302,6 +298,24 @@ h1 {
     width: 66px;
     margin: 0 auto;
     padding-top: 10px;
+}
+
+.blog-title {
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.minblog-title {
+    font-size: 14px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
 }
 
 .news-card {
@@ -473,12 +487,47 @@ h1 {
 
 }
 
+.card-shop {
+    width: 300px;
+    text-align: center
+}
+
 .shop-item-1,
 .shop-item-2,
 .shop-item-3 {
     width: 300px;
     height: 204px;
     background-color: #eff6f1;
+
+}
+
+.shop-title {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: start;
+}
+
+.shop-text {
+    width: 301px;
+    height: 63px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #0f0d0e;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: start;
+}
+
+.shop-link {
+    color: #b59f5b;
+}
+
+.shop-link:hover {
+    text-decoration: underline;
 }
 
 .footer {
@@ -534,59 +583,71 @@ h1 {
     }
 
     .container {
-        width: 641px;
-    }
-
-    .menu-list {
-        display: none;
-    }
-    .card {
-        display: inline;
-    }
-    
-    
-}
-
-@media (min-width: 641px) and (max-width:1199px) and (orientation:landscape) {}
-
-@media (max-width: 640px) {
-    .header {
-        background: url("../images/mobile/banner-mobile.jpg") no-repeat center;
-    }
-
-
-    
-    .container {
-        width: 361px;
+        width: 690px;
     }
 
     .menu-list {
         display: none;
     }
 
-    .header-inner {
-        display: inline;
-    }
-
     .card {
         display: inline;
     }
 
-    .cards-shop {
-        display: inline;
-    }
 
-    .health-inner {
-        display: inline;
-    }
 
-    .card-trends {
-        display: inline;
-    }
-    
     .card-trend {
-        width: 91.41%;
+        width: 385px;
+        height: 247px;
+        background-color: #eff6f1;
     }
-}
 
-@media (max-width: 640px) and (orientation:landscape) {}
+
+
+    @media (min-width: 641px) and (max-width:1199px) and (orientation:landscape) {}
+
+    @media (max-width: 640px) {
+        .header {
+            background: url("../images/mobile/banner-mobile.jpg") no-repeat center;
+        }
+
+
+
+        .container {
+            width: 320px;
+        }
+
+        .menu-list {
+            display: none;
+        }
+
+        .header-inner {
+            display: inline;
+        }
+
+        .card {
+            display: inline;
+        }
+
+        .cards-shop {
+            display: inline;
+        }
+
+        .health-inner {
+            display: inline;
+        }
+
+        .card-trends {
+            display: inline;
+        }
+
+        .card-trend {
+            width: 91.41%;
+        }
+    }
+
+    @media (max-width: 640px) and (orientation:landscape) {
+        .card-trends {
+            display: flex;
+        }
+    }
