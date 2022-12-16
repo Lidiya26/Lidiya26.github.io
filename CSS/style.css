@@ -579,7 +579,8 @@ h1 {
 
 @media (min-width: 641px) and (max-width:1199px) {
     .header {
-        background: url("../images/tablet/banner-bg-tablet.jpg") no-repeat center;
+        background: url("../images/tablet/banner-bg-tablet.jpg") no-repeat ;
+        background-size: cover;
     }
 
     .container {
@@ -588,6 +589,13 @@ h1 {
 
     .menu-list {
         display: none;
+    }
+
+    .title-blog {
+        margin: 0 auto;
+        width: 620px;
+        font-size: 40px;
+        line-height: 55px;
     }
 
     .card {
