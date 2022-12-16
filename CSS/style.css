@@ -125,18 +125,23 @@ h1 {
 }
 
 .card-trends {
-    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .card-trend {
-    width: 414px;
+    width: 23.5%;
     height: 320px;
     position: relative;
     z-index: 0;
     display: flex;
     flex-direction: column-reverse;
+    background-color: #eff6f1;
+    background-size: cover;
+}
+
+.card-trend+.card-trend {
+    margin-left: 2px;
 }
 
 .card-trend-title {
@@ -155,22 +160,22 @@ h1 {
 
 .trend1 {
     background: url("../images/trend/trend1.jpg") no-repeat center;
-    background-color: #eff6f1;
+
 }
 
 .trend2 {
     background: url("../images/trend/trend2.jpg") no-repeat center;
-    background-color: #eff6f1;
+
 }
 
 .trend3 {
     background: url("../images/trend/trend3.jpg") no-repeat center;
-    background-color: #eff6f1;
+
 }
 
 .trend4 {
     background: url("../images/trend/trend4.jpg") no-repeat center;
-    background-color: #eff6f1;
+
 }
 
 .conteiner-trends {
@@ -579,7 +584,7 @@ h1 {
 
 @media (min-width: 641px) and (max-width:1199px) {
     .header {
-        background: url("../images/tablet/banner-bg-tablet.jpg") no-repeat ;
+        background: url("../images/tablet/banner-bg-tablet.jpg") no-repeat;
         background-size: cover;
     }
 
@@ -603,11 +608,29 @@ h1 {
     }
 
 
+    .card-trends {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     .card-trend {
-        width: 385px;
-        height: 247px;
+        width: 49%;
+        height: 248px;
         background-color: #eff6f1;
+        margin-bottom: 2px;
+    }
+
+    .card-trend+.card-trend {
+        margin-left: 0;
+    }
+
+    .card-trend-title {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .card-category {
+        line-height: 37px;
     }
 
 
