@@ -632,3 +632,11 @@ h1 {
     .card-category {
         line-height: 37px;
     }
+
+    .health-inner {
+        margin-top: 37px;
+    }
+
+    .news-blog {
+        margin-top: 0px;
+    }
