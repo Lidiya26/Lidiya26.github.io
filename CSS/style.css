@@ -127,7 +127,7 @@ h1 {
 .card-trends {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card-trend {
