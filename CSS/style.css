@@ -427,6 +427,7 @@ h1 {
 .subscription-button {
     margin-top: 15px;
     font-size: 14px;
+    line-height: 40px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
@@ -497,14 +498,15 @@ h1 {
 .card-shop {
     width: 300px;
     text-align: center;
-    
-    
+
 }
 
 .shop-item {
     width: 300px;
     height: 204px;
     background-color: #eff6f1;
+
+
 }
 
 .shop-item-1 {
@@ -514,6 +516,7 @@ h1 {
 
 .shop-item-2 {
     background-image: url(/images/desk/shop-item-desk2.jpg);
+
 }
 
 .shop-item-3 {
@@ -532,7 +535,9 @@ h1 {
 
 .shops-category {
     border: 3px solid #b59f5b;
-    padding-top: 50px;
+    width: 347px;
+    height: 267px;
+    
 }
 
 .shop-text {
@@ -552,6 +557,34 @@ h1 {
 
 .shop-link:hover {
     text-decoration: underline;
+}
+
+.shop-prices {
+    display: flex;
+}
+
+.shop-price {
+    
+}
+
+.price-1 {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+
+.price-2 {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
 }
 
 .footer {
@@ -681,17 +714,17 @@ h1 {
 
     .shop-item-1 {
         background-image: url(/images/tablet/shop-item-tablet1.jpg);
-    
+
     }
-    
+
     .shop-item-2 {
         background-image: url(/images/tablet/shop-item-tablet2.jpg);
     }
-    
+
     .shop-item-3 {
         background-image: url(/images/tablet/shop-item-tablet3.jpg);
     }
-    
+
 
 }
 
