@@ -497,9 +497,13 @@ h1 {
 
 .shop-content {
     width: 300px;
-    text-align: center;
     
 
+
+}
+
+.cards-shops {
+    text-align: center;
 }
 
 .shop-item {
@@ -561,6 +565,7 @@ h1 {
 
 .shop-prices {
     display: flex;
+    justify-content: flex-end;
 }
 
 
