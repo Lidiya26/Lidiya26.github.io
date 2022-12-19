@@ -79,6 +79,7 @@ h1 {
     width: 179px;
 }
 
+
 .menu-list {
     display: flex;
 }
@@ -115,14 +116,6 @@ h1 {
     padding-bottom: 140px;
 }
 
-.trends-title {
-    font-size: 20px;
-    line-height: 29px;
-    text-transform: uppercase;
-    color: #0f0d0e;
-    font-weight: 700;
-    font-family: "Open Sans";
-}
 
 .card-trends {
     display: flex;
@@ -247,6 +240,10 @@ h1 {
     margin-bottom: 30px;
 }
 
+.card-content {
+    margin-bottom: 55px;
+}
+
 .card-title:hover {
     color: #b59f5b;
 }
@@ -293,6 +290,10 @@ h1 {
 .news-blog {
     text-align: center;
     padding-bottom: 25px;
+
+}
+
+.news-step {
     margin-top: 55px;
 }
 
@@ -489,21 +490,34 @@ h1 {
 .cards-shop {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
 .card-shop {
     width: 300px;
-    text-align: center
+    text-align: center;
+    
+    
 }
 
-.shop-item-1,
-.shop-item-2,
-.shop-item-3 {
+.shop-item {
     width: 300px;
     height: 204px;
     background-color: #eff6f1;
+}
 
+.shop-item-1 {
+    background-image: url(/images/desk/shop-item-desk1.jpg);
+
+}
+
+.shop-item-2 {
+    background-image: url(/images/desk/shop-item-desk2.jpg);
+}
+
+.shop-item-3 {
+    background-image: url(/images/desk/shop-item-desk3.jpg);
 }
 
 .shop-title {
@@ -514,6 +528,11 @@ h1 {
     font-weight: 700;
     font-family: "Open Sans";
     text-align: start;
+}
+
+.shops-category {
+    border: 3px solid #b59f5b;
+    padding-top: 50px;
 }
 
 .shop-text {
@@ -593,6 +612,19 @@ h1 {
     }
 
     .menu-list {
+        padding-top: 3px;
+    }
+
+    .menu-list::after {
+        display: block;
+        content: "";
+        border-bottom: 3px solid #ffffff;
+        margin: 0 auto;
+        width: 23px;
+        height: 3px;
+    }
+
+    .menu-item {
         display: none;
     }
 
@@ -620,6 +652,7 @@ h1 {
         margin-bottom: 2px;
     }
 
+
     .card-trend+.card-trend {
         margin-left: 0;
     }
@@ -631,13 +664,40 @@ h1 {
 
     .card-category {
         line-height: 37px;
+        margin-bottom: 5px
     }
 
     .health-inner {
         margin-top: 37px;
     }
 
-    .news-blog {
-        margin-top: 0px;
+    .news-info {
+        margin-left: 10px;
+    }
+
+    .card-img {
+        margin-right: 0;
+    }
+
+    .shop-item-1 {
+        background-image: url(/images/tablet/shop-item-tablet1.jpg);
+    
+    }
+    
+    .shop-item-2 {
+        background-image: url(/images/tablet/shop-item-tablet2.jpg);
+    }
+    
+    .shop-item-3 {
+        background-image: url(/images/tablet/shop-item-tablet3.jpg);
+    }
+    
+
+}
+
+@media (max-width: 641px) {
+    .header {
+        background: url("../images/mobile/banner-mobile.jpg") no-repeat;
+        background-size: cover;
     }
 }
