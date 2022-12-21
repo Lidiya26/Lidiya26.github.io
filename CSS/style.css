@@ -120,6 +120,7 @@ h1 {
 .card-trends {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card-trend {
@@ -503,7 +504,7 @@ h1 {
 
 .shop-content {
     width: 300px;
-    
+
 
 
 }
@@ -516,7 +517,7 @@ h1 {
     width: 300px;
     height: 204px;
     background-color: #eff6f1;
-    
+
 }
 
 .shop-item-1 {
@@ -547,7 +548,7 @@ h1 {
     border: 3px solid #b59f5b;
     width: 347px;
     height: 267px;
-    
+
 }
 
 .shop-text {
@@ -665,6 +666,7 @@ h1 {
         height: 3px;
     }
 
+
     .menu-item {
         display: none;
     }
@@ -681,16 +683,12 @@ h1 {
     }
 
 
-    .card-trends {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     .card-trend {
-        width: 49%;
+        width: 386px;
         height: 248px;
         background-color: #eff6f1;
         margin-bottom: 2px;
+
     }
 
 
