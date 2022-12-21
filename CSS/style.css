@@ -123,14 +123,13 @@ h1 {
 }
 
 .card-trend {
-    width: 23.5%;
+    width: 414px;
     height: 320px;
     position: relative;
     z-index: 0;
     display: flex;
     flex-direction: column-reverse;
     background-color: #eff6f1;
-    background-size: cover;
 }
 
 .card-trend+.card-trend {
@@ -152,22 +151,30 @@ h1 {
 }
 
 .trend1 {
-    background: url("../images/trend/trend1.jpg") no-repeat center;
+    background: url("../images/trend/trend1.jpg") no-repeat center center;
+    flex: 1;
+    background-size: cover;
 
 }
 
 .trend2 {
-    background: url("../images/trend/trend2.jpg") no-repeat center;
+    background: url("../images/trend/trend2.jpg") no-repeat center center;
+    flex: 1;
+    background-size: cover;
 
 }
 
 .trend3 {
-    background: url("../images/trend/trend3.jpg") no-repeat center;
+    background: url("../images/trend/trend3.jpg") no-repeat center center;
+    flex: 1;
+    background-size: cover;
 
 }
 
 .trend4 {
-    background: url("../images/trend/trend4.jpg") no-repeat center;
+    background: url("../images/trend/trend4.jpg") no-repeat center center;
+    background-size: cover;
+    flex: 1;
 
 }
 
