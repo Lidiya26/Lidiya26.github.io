@@ -298,12 +298,10 @@ h1 {
 .news-blog {
     text-align: center;
     padding-bottom: 25px;
-
-}
-
-.news-step {
     margin-top: 55px;
+
 }
+
 
 .news-blog::after {
     display: block;
@@ -736,7 +734,27 @@ h1 {
 
 @media (max-width: 641px) {
     .header {
-        background: url("../images/mobile/banner-mobile.jpg") no-repeat;
+        background: url("../images/mobile/banner-mobile.jpg") no-repeat center;
         background-size: cover;
+        min-height: 640px;
+    }
+
+    .menu-list {
+        padding-top: 3px;
+    }
+
+    .menu-list::after {
+        display: block;
+        content: "";
+        border-bottom: 3px solid #ffffff;
+        margin: 0 auto;
+        width: 23px;
+        height: 3px;
+    }
+
+    .logo {
+        padding-top: 230px;
+        margin: 0 auto;
     }
 }
+
