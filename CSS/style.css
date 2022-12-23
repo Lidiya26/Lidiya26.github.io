@@ -447,6 +447,8 @@ h1 {
     background-color: #323232;
 }
 
+
+
 .news-teg {
     font-size: 12px;
     text-transform: uppercase;
@@ -480,6 +482,7 @@ h1 {
 
 .news-topics {
     border-bottom: 1px solid #eeeeee;
+
 }
 
 .news-numbers {
@@ -500,15 +503,9 @@ h1 {
 
 }
 
-.shop-content {
-    width: 300px;
-
-
-
-}
-
 .cards-shops {
     text-align: center;
+
 }
 
 .shop-item {
@@ -519,17 +516,22 @@ h1 {
 }
 
 .shop-item-1 {
-    background-image: url(/images/desk/shop-item-desk1.jpg);
-
+    background: url(/images/desk/shop-item-desk1.jpg) no-repeat;
 }
 
 .shop-item-2 {
-    background-image: url(/images/desk/shop-item-desk2.jpg);
+    background: url(/images/desk/shop-item-desk2.jpg) no-repeat;
 
 }
 
 .shop-item-3 {
-    background-image: url(/images/desk/shop-item-desk3.jpg);
+    background: url(/images/desk/shop-item-desk3.jpg) no-repeat;
+}
+
+.text {
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .shop-title {
@@ -551,7 +553,6 @@ h1 {
 
 .shop-text {
     width: 301px;
-    height: 63px;
     font-size: 15px;
     line-height: 22px;
     color: #0f0d0e;
@@ -570,9 +571,25 @@ h1 {
 
 .shop-prices {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
+.shop-button {
+    width: 140px;
+    height: 48px;
+    background-color: #b59f5b;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.shop-button:hover {
+    background-color: #323232;
+}
 
 .price-1 {
     font-size: 14px;
@@ -757,4 +774,3 @@ h1 {
         margin: 0 auto;
     }
 }
-
