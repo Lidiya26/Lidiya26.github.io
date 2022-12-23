@@ -500,6 +500,7 @@ h1 {
 .cards-shop {
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 
 }
 
