@@ -97,11 +97,13 @@
     color: #fff;
 }
 
+.menu-link:hover {
+    text-decoration: underline;
+}
+
 .menu-button {
     display: none;
 }
-
-
 
 .popup {
     display: flex;
@@ -424,6 +426,12 @@
     color: #b59f5b;
 }
 
+.post-tag-link:hover {
+    text-decoration: underline;
+    color: #b59f5b;
+
+}
+
 .post-description {
     margin-bottom: 37px;
 }
@@ -439,6 +447,10 @@
     color: #0f0d0e;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.post-title-link:hover {
+    color: #b59f5b;
 }
 
 .post-meta {
@@ -544,6 +556,10 @@
     border: none;
 }
 
+.search-button:hover {
+    background-color: #323232;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -583,7 +599,9 @@
     border: none;
 }
 
-
+.mail-button:hover {
+    background-color: #323232;
+}
 
 .list-tags {
     display: flex;
@@ -610,7 +628,10 @@
     padding: 7px 15px;
 }
 
-
+.list-tags-link:hover {
+    background-color: rgba(244, 243, 241, 0);
+    border: 3px solid #b59f5b;
+}
 
 .list-themes {
     list-style-type: none;
@@ -727,6 +748,9 @@
     line-height: 3;
 }
 
+.shop-button:hover {
+    background-color: #323232;
+}
 
 .footer {
     max-width: 1200px;
