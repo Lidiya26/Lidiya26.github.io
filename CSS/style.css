@@ -545,6 +545,10 @@
     background-color: #f4f7f6;
 }
 
+.search-field:focus {
+    outline: 1px solid #b59f5b;
+}
+
 .search-button {
     width: 49px;
     height: 49px;
@@ -586,6 +590,10 @@
     font-size: 13px;
     background-color: #f4f7f6;
     border: none;
+}
+
+.mail-field:focus {
+    outline: 1px solid #b59f5b;
 }
 
 .mail-button {
