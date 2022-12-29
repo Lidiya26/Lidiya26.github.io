@@ -973,7 +973,7 @@
 
     @media (orientation: landscape) {
         .trends {
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
         }
     }
 }
