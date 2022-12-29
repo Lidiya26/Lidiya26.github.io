@@ -972,14 +972,6 @@
         background-size: 25px;
     }
 
-    @media (orientation: portrait) {
-        .trends {
-            flex-wrap: wrap;
-        }
-
-
-    }
-
     @media (orientation: landscape) {
         .trends {
             flex-wrap: nowrap;
