@@ -272,11 +272,13 @@
 }
 
 .trends {
+    width: 100%;
     display: flex;
 }
 
 .trend-card {
     width: 25%;
+    min-width: 385px;
     min-height: 320px;
     display: flex;
     align-items: flex-end;
@@ -971,9 +973,17 @@
         background-size: 25px;
     }
 
-    @media (orientation: landscape) {
+    @media (orientation: portrait) {
         .trends {
             flex-wrap: wrap;
+        }
+
+
+    }
+
+    @media (orientation: landscape) {
+        .trends {
+            flex-wrap: nowrap;
         }
     }
 }
