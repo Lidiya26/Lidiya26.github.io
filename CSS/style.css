@@ -278,7 +278,6 @@
 
 .trend-card {
     width: 25%;
-    min-width: 385px;
     min-height: 320px;
     display: flex;
     align-items: flex-end;
