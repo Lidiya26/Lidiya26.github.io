@@ -360,6 +360,10 @@
     color: #b59f5b;
 }
 
+.link-item:hover {
+    text-decoration: underline;
+}
+
 .trend-title {
     margin-bottom: 20px;
 }
