@@ -976,7 +976,22 @@
         .trends {
             flex-wrap: nowrap;
         }
+
+        .trend-text {
+            border: 1px solid #b59f5b;
+            padding: 10px 10px 0 10px;
+            margin: 10px;
+        }
+
+        .trend-title-link {
+            font-size: 16px;
+        }
+
+        .link-item {
+            font-size: 12px;
+        }
     }
+
 }
 
 
@@ -1062,7 +1077,6 @@
     }
 
     .trend-card {
-        width: 100%;
         margin-right: 0;
         margin-bottom: 2px;
         min-height: 230px;
